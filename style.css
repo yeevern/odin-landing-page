@@ -87,6 +87,11 @@ button {
 .content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.content > * {
+    padding: 35px;
 }
 
 .info {
@@ -99,7 +104,7 @@ button {
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
-    margin: 48px;
+    margin: 45px 0;
 }
 
 .card-container {
@@ -109,7 +114,8 @@ button {
 }
 
 .card-container li {
-    width: 200px;
+    width: 100px;
+    margin: 0 50px;
 }
 
 .card {
@@ -122,18 +128,15 @@ button {
 .card-text {
     width: 150px;
     margin-top: 10px;
-    margin-bottom: 64px;
 }
 
 .quotes {
-    background-color: #E5E7EB;
-    height: 400px;
+    background-color: #e5e7eb;
+    /* height: 400px; */
     color: #1F2937;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 250px;
+    padding: 100px 350px;
 }
 
 .quote {
@@ -149,7 +152,7 @@ button {
 
 .action {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #3882f6;
     color: #f9faf8;
     margin: 80px 250px;
@@ -164,16 +167,16 @@ button {
 
 .title {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .text {
-    color: #E5E7EB;
+    color: #e5e7eb;
 }
 
 .action-button {
     border: 2px solid white;
     width: 150px;
-    border-radius: 4px;
 }
 
 .footer {
